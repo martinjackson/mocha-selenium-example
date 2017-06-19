@@ -1,0 +1,12 @@
+# .gitignore
+node_modules
+
+#TO DO: https://github.com/github/gitignore/blob/master/Node.gitignore
+
+yarn.lock
+public/data
+public/daily-processed.html
+public/droid-logs
+server/logs/
+server/mbsnode-react-testrun.log
+server/ncsvmmbsdev-*.log

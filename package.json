@@ -1,0 +1,22 @@
+{
+  "name": "mocha-selenium-example",
+  "version": "0.0.1",
+  "description": "testing script for usinh mocha and selenium-webdriver",
+  "main": "first-test.js",
+  "scripts": {
+    "start": "node first_test.js",
+    "test": "mocha mocha_test.js",
+    "longtest": "mocha --timeout 0 mocha_test.js"
+  },
+  "keywords": [
+    "Selenium",
+    "NodeJS"
+  ],
+  "author": "Martin A. Jackson <martin.a.jackson@gmail.com> (https://streamof.info)",
+  "license": "MIT",
+  "dependencies": {
+    "chromedriver": "^2.29.0",
+    "mocha": "^3.4.1",
+    "selenium-webdriver": "^3.4.0"
+  }
+}
